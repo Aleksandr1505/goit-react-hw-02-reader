@@ -1,0 +1,45 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.button,
+.disabledButton {
+  display: inline-block;
+  min-width: 240px;
+  border: 0;
+  padding: 8px 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  background-color: #1f65d6;
+  cursor: pointer;
+}
+
+.disabledButton {
+  pointer-events: none;
+  background-color: #bdbdbd;
+}
+
+.disabledButton:hover,
+.disabledButton:focus {
+  background-color: #bdbdbd;
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #1f65d6;
+}
